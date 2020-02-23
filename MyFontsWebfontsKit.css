@@ -1,0 +1,34 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3660935, 2018-10-25T13:54:22-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: CapricaScriptUpright by Mans Greback
+ * URL: https://www.myfonts.com/fonts/mawns/caprica-script/upright/
+ * 
+ * Webfont: CapricaScript by Mans Greback
+ * URL: https://www.myfonts.com/fonts/mawns/caprica-script/regular/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3660935
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: Copyright (c) 2014 by M&#x00C2;ns Greb&#x2030;ck. All rights reserved.
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import (css) url("//hello.myfonts.net/count/37dc87");
+
+  
+@font-face {font-family: 'CapricaScriptUpright';src: url('webfonts/37DC87_0_0.eot');src: url('webfonts/37DC87_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37DC87_0_0.woff2') format('woff2'),url('webfonts/37DC87_0_0.woff') format('woff'),url('webfonts/37DC87_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CapricaScript';src: url('webfonts/37DC87_1_0.eot');src: url('webfonts/37DC87_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37DC87_1_0.woff2') format('woff2'),url('webfonts/37DC87_1_0.woff') format('woff'),url('webfonts/37DC87_1_0.ttf') format('truetype');}
+ 

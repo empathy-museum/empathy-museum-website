@@ -1,0 +1,234 @@
+body {
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding: 40px 20px;
+}
+
+header .logo-shoe-list {
+  height: 80px;
+  width: auto;
+}
+
+header .nhs-logo {
+  height: 40px;
+  width: auto;
+
+  margin-left: 30px;
+  margin-right: 30px;   
+}
+
+header .nursingnow-logo {
+  height: 80px;
+  width: auto;
+
+  margin-left: 30px;
+}
+
+main {
+  max-width: 1200px;
+  min-height: calc(100vh - 160px);
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+}
+
+aside,
+section {
+  width: 50vw;
+  padding: 0 50px;
+  margin-top: -60px;
+}
+
+.section-container {
+  position: relative;
+}
+
+
+aside img {
+  width: 100%;
+  height: auto;
+}
+
+section h1 {
+  font-family: 'CapricaScriptUpright', serif;
+  font-size: 70px;
+      font-style: italic;
+  color: #e92227;
+}
+
+section h2 {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  color: #e92227;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+section h3 {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+        font-weight: 700;
+
+  color: white;
+    text-transform: uppercase;
+
+}
+
+
+audio {
+  margin-top: 50px;
+}
+
+.shoe-list-link {
+  width: 90px;
+  height: 90px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  
+  position: absolute;
+  right: 50px;
+  bottom: -100px;
+  
+  background-color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: #e92227;
+
+  border-radius: 50%;
+}
+
+/* shoe list page */
+main.shoe-list-page {
+  display: block;
+  width: 90vw;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.shoe-list-title {
+  margin-left: 20px;
+  text-transform: uppercase;
+  color: #e92227;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.shoe-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.shoe-list li {
+  width: calc(100% / 5 - 40px);
+  margin: 20px;
+}
+
+.shoe-list li .img-container {
+  width: 100%;
+  position: relative;
+}
+
+.shoe-list li .img-container:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.shoe-list li img {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media all and (max-width: 1300px) {
+  .shoe-list li {
+    width: calc(100% / 2 - 40px);
+  }
+}
+
+@media all and (max-width: 1050px) {
+  main {
+    display: block;
+  }
+
+  aside,
+  section {
+    width: auto;
+    margin-top: 0px;
+    text-align: center;
+    padding: 30px;
+  }
+
+  aside img {
+    max-height: 400px;
+    max-width: auto;
+  }
+
+  section {
+    text-align: left;
+  }
+
+  .shoe-list-link {
+    position: initial;
+    margin-top: 30px;
+    margin-left: auto;
+  }
+}
+
+@media all and (max-width: 650px) {
+  aside img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+@media all and (max-width: 450px) {
+  audio {
+    width: 100%;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  header .logo {
+    height: 50px;
+  }
+
+  header .nhs-logo {
+    height: 30px;
+    margin-right: 0px;   
+
+  }
+    
+     header .nursingnow-logo {
+    height: 50px;
+  }
+
+  .shoe-list li {
+    width: 100%;
+    margin: 0;
+  }
+}
